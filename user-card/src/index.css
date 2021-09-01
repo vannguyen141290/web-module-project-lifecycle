@@ -1,0 +1,56 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  background-color: #99e2b4;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #248277, -5px 0 3px #248277;
+  height: 1500px;
+}
+
+.followers-wrapper, .followings-wrapper {
+  position: absolute;
+  background-color: #469d89;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #88d4ab, -5px 0 3px #88d4ab;
+}
+
+.follower-card, .following-card {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.avatar img {
+  border-radius: 10px;
+}
+
+
+.search-bar {
+  margin: 0 0 2% 0;
+}
+
+.user-cards-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: center;
+  width: 70%;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  width: 40%;
+  height: 300px;
+}
+
+
